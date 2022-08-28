@@ -9,10 +9,6 @@ public class Afisha {
         limit = 10;
     }
 
-    public Afisha(int limit) {
-        this.limit = limit;
-    }
-
     public void add(String movie) {
 
         String[] tmp = new String[movies.length + 1];

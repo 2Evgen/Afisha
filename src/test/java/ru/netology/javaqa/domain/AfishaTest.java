@@ -67,6 +67,7 @@ public class AfishaTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void test5() {
         Afisha afisha = new Afisha();
